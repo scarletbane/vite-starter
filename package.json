@@ -5,8 +5,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "scss:watch": "sass --watch src/styles:css",
-        "scss:build": "sass --no-source-maps src/styles:css",
+        "scss:watch": "sass --watch src/styles:dist/css",
+        "scss:build": "sass --no-source-maps src/styles:dist/css",
         "preview": "vite preview",
         "lint:javascript": "eslint ./**/*.js",
         "lint:styles": "stylelint ./**/*.scss",
