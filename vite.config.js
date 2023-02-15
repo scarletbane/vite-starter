@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import htmlPurge from 'vite-plugin-html-purgecss';
+import htmlPurge from 'vite-plugin-purgecss';
 
 export default defineConfig({
     root: 'src',
