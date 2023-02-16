@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
+import eslint from 'vite-plugin-eslint';
 import htmlPurge from 'vite-plugin-purgecss';
+import stylelint from 'vite-plugin-stylelint';
 
 export default defineConfig({
     root: 'src',
@@ -10,9 +12,11 @@ export default defineConfig({
     },
     server: {
         hot: true,
-        open: 'true'
+        open: true
     },
     plugins: [
+        eslint(),
         htmlPurge(),
+        stylelint()
     ]
 });
