@@ -10,7 +10,7 @@
     "devDependencies": {
         "eslint": "^8.34.0",
         "eslint-config-prettier": "^8.6.0",
-        "pnpm": "^7.27.0",
+        "pnpm": "^7.33.4",
         "postcss": "^8.4.21",
         "postcss-scss": "^4.0.6",
         "prettier": "2.8.4",
