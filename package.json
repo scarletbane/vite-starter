@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "pnpm": "^9.4.0",
+    "pnpm": "^10.0.0",
     "postcss": "^8.4.39",
     "postcss-scss": "^4.0.9",
     "prettier": "3.3.2",
