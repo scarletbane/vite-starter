@@ -12,11 +12,11 @@ importers:
         specifier: ^10.34.5
         version: 10.34.5
       postcss:
-        specifier: ^8.5.8
-        version: 8.5.8
+        specifier: ^8.5.23
+        version: 8.5.23
       postcss-scss:
         specifier: ^4.0.9
-        version: 4.0.9(postcss@8.5.8)
+        version: 4.0.9(postcss@8.5.23)
       prettier:
         specifier: 3.3.2
         version: 3.3.2
@@ -28,16 +28,16 @@ importers:
         version: 16.26.1(supports-color@7.2.0)
       stylelint-config-standard-scss:
         specifier: ^13.1.0
-        version: 13.1.0(postcss@8.5.8)(stylelint@16.26.1(supports-color@7.2.0))
+        version: 13.1.0(postcss@8.5.23)(stylelint@16.26.1)
       vite:
         specifier: ^6.4.2
         version: 6.4.2(sass@1.98.0)
       vite-plugin-purgecss:
         specifier: ^0.2.13
-        version: 0.2.13(postcss@8.5.8)(sass@1.98.0)(supports-color@7.2.0)
+        version: 0.2.13(postcss@8.5.23)(sass@1.98.0)
       vite-plugin-stylelint:
         specifier: ^5.3.1
-        version: 5.3.1(postcss@8.5.8)(rollup@4.60.1)(stylelint@16.26.1(supports-color@7.2.0))(supports-color@7.2.0)(vite@6.4.2(sass@1.98.0))
+        version: 5.3.1(postcss@8.5.23)(rollup@4.60.1)(stylelint@16.26.1)(vite@6.4.2(sass@1.98.0))
 
 packages:
 
@@ -1063,8 +1063,8 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.18:
+    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1171,8 +1171,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.8:
-    resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
+  postcss@8.5.23:
+    resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier@3.3.2:
@@ -2211,7 +2211,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.18: {}
 
   node-addon-api@7.1.1:
     optional: true
@@ -2257,23 +2257,23 @@ snapshots:
 
   pnpm@10.34.5: {}
 
-  postcss-load-config@6.0.1(postcss@8.5.8):
+  postcss-load-config@6.0.1(postcss@8.5.23):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
 
   postcss-media-query-parser@0.2.3: {}
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@7.0.1(postcss@8.5.8):
+  postcss-safe-parser@7.0.1(postcss@8.5.23):
     dependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
 
-  postcss-scss@4.0.9(postcss@8.5.8):
+  postcss-scss@4.0.9(postcss@8.5.23):
     dependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
 
   postcss-selector-parser@6.1.2:
     dependencies:
@@ -2287,9 +2287,9 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.8:
+  postcss@8.5.23:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -2299,7 +2299,7 @@ snapshots:
     dependencies:
       commander: 8.3.0
       glob: 7.2.3
-      postcss: 8.5.8
+      postcss: 8.5.23
       postcss-selector-parser: 6.1.2
 
   qified@0.9.1:
@@ -2389,26 +2389,26 @@ snapshots:
     dependencies:
       ansi-regex: 5.0.1
 
-  stylelint-config-recommended-scss@14.1.0(postcss@8.5.8)(stylelint@16.26.1(supports-color@7.2.0)):
+  stylelint-config-recommended-scss@14.1.0(postcss@8.5.23)(stylelint@16.26.1):
     dependencies:
-      postcss-scss: 4.0.9(postcss@8.5.8)
-      stylelint: 16.26.1(supports-color@7.2.0)
-      stylelint-config-recommended: 14.0.1(stylelint@16.26.1(supports-color@7.2.0))
-      stylelint-scss: 6.14.0(stylelint@16.26.1(supports-color@7.2.0))
+      postcss-scss: 4.0.9(postcss@8.5.23)
+      stylelint: 16.26.1
+      stylelint-config-recommended: 14.0.1(stylelint@16.26.1)
+      stylelint-scss: 6.14.0(stylelint@16.26.1)
     optionalDependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
 
   stylelint-config-recommended@14.0.1(stylelint@16.26.1(supports-color@7.2.0)):
     dependencies:
       stylelint: 16.26.1(supports-color@7.2.0)
 
-  stylelint-config-standard-scss@13.1.0(postcss@8.5.8)(stylelint@16.26.1(supports-color@7.2.0)):
+  stylelint-config-standard-scss@13.1.0(postcss@8.5.23)(stylelint@16.26.1):
     dependencies:
-      stylelint: 16.26.1(supports-color@7.2.0)
-      stylelint-config-recommended-scss: 14.1.0(postcss@8.5.8)(stylelint@16.26.1(supports-color@7.2.0))
-      stylelint-config-standard: 36.0.1(stylelint@16.26.1(supports-color@7.2.0))
+      stylelint: 16.26.1
+      stylelint-config-recommended-scss: 14.1.0(postcss@8.5.23)(stylelint@16.26.1)
+      stylelint-config-standard: 36.0.1(stylelint@16.26.1)
     optionalDependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
 
   stylelint-config-standard@36.0.1(stylelint@16.26.1(supports-color@7.2.0)):
     dependencies:
@@ -2457,9 +2457,9 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.8
+      postcss: 8.5.23
       postcss-resolve-nested-selector: 0.1.6
-      postcss-safe-parser: 7.0.1(postcss@8.5.8)
+      postcss-safe-parser: 7.0.1(postcss@8.5.23)
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
@@ -2524,7 +2524,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.5.1(postcss@8.5.8)(supports-color@7.2.0):
+  tsup@8.5.1(postcss@8.5.23):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.7)
       cac: 6.7.14
@@ -2535,7 +2535,7 @@ snapshots:
       fix-dts-default-cjs-exports: 1.0.1
       joycon: 3.1.1
       picocolors: 1.1.1
-      postcss-load-config: 6.0.1(postcss@8.5.8)
+      postcss-load-config: 6.0.1(postcss@8.5.23)
       resolve-from: 5.0.0
       rollup: 4.60.1
       source-map: 0.7.6
@@ -2544,7 +2544,7 @@ snapshots:
       tinyglobby: 0.2.15
       tree-kill: 1.2.2
     optionalDependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -2555,10 +2555,10 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-purgecss@0.2.13(postcss@8.5.8)(sass@1.98.0)(supports-color@7.2.0):
+  vite-plugin-purgecss@0.2.13(postcss@8.5.23)(sass@1.98.0):
     dependencies:
       purgecss: 4.1.3
-      tsup: 8.5.1(postcss@8.5.8)(supports-color@7.2.0)
+      tsup: 8.5.1(postcss@8.5.23)
       vite: 6.4.2(sass@1.98.0)
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
@@ -2578,7 +2578,7 @@ snapshots:
       - typescript
       - yaml
 
-  vite-plugin-stylelint@5.3.1(postcss@8.5.8)(rollup@4.60.1)(stylelint@16.26.1(supports-color@7.2.0))(supports-color@7.2.0)(vite@6.4.2(sass@1.98.0)):
+  vite-plugin-stylelint@5.3.1(postcss@8.5.23)(rollup@4.60.1)(stylelint@16.26.1)(vite@6.4.2(sass@1.98.0)):
     dependencies:
       '@rollup/pluginutils': 5.3.0(rollup@4.60.1)
       chokidar: 3.6.0
@@ -2586,7 +2586,7 @@ snapshots:
       stylelint: 16.26.1(supports-color@7.2.0)
       vite: 6.4.2(sass@1.98.0)
     optionalDependencies:
-      postcss: 8.5.8
+      postcss: 8.5.23
       rollup: 4.60.1
     transitivePeerDependencies:
       - supports-color
@@ -2596,7 +2596,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.8
+      postcss: 8.5.23
       rollup: 4.60.1
       tinyglobby: 0.2.15
     optionalDependencies:
